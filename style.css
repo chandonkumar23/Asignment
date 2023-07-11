@@ -27,7 +27,7 @@
     margin: 25px 0 ;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(245, 111, 62);
+    background-color: rgb(229, 86, 35);
     color: white;
     border: 0;
     border-radius: 5px;
@@ -123,7 +123,7 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(229, 98, 33);
 }
 /****************************instagram section style***************/
 .instagram-section{
@@ -134,9 +134,11 @@
 }
 .instagran-title{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     margin: 20px 10px;
+    color: rgb(74, 79, 83);
 }
 .instagram-discription{
     text-align: center;
@@ -149,40 +151,7 @@
     padding: 10px;
     gap: 10px;
 }
-/************subscribe***********/
-.latest-section{
-    background-image: url(Rectangle\ 9.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    margin: 70px  65px;
-    text-align: center;
-}
-.latest-info{
-    margin: 80px 20px;
-    padding: 75px 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.latest-discription{
-    color: rgb(110, 114, 117);
-    margin: 10px 0;
-    font-family: 22px;
-}
-.mail-int{
-    padding: 13px 0;
-    margin: 40px 0px;
-    width: 500px;
-    border: 0;
-    border-radius: 3px;
-}
-.subscribe-btn{
-    padding: 13px 18px;
-    margin: auto;
-    border-radius: 3px;
-    border: 0;
-    background-color: pink;
-}
+
 /******************testimonial style**********/
 .testimonial-section{
     padding: 30px 10px;
@@ -194,7 +163,7 @@
     text-align: center;
     padding: 40px 30px;
     margin: 30px 10px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     color: rgb(78, 79, 82);
@@ -234,4 +203,72 @@
 .social-icon{
     padding: 5px 10px;
     font-size: 20px;
+}
+
+
+/************subscribe***********/
+.latest-section{
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 70px  65px;
+    text-align: center;
+}
+.latest-info{
+    margin: 80px 20px;
+    padding: 75px 10px;
+    
+}
+.latest-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.latest-discription{
+    color: rgb(110, 114, 117);
+    margin: 10px 0;
+    font-size: 18px;
+}
+.mail-int{
+    padding: 13px 0;
+    margin: 40px 0px;
+    width: 500px;
+    border: 0;
+    border-radius: 3px;
+}
+.subscribe-btn{
+    padding: 13px 18px;
+    margin: auto;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    background-color: rgb(228, 94, 17);
+}
+
+/********************footer style****************/
+.footer-section{
+    background-color: black;
+    padding: 150px 60px;
+}
+.footer-content{
+    color: white;
+    text-align: center;
+    
+}
+.footer-title{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.flower{
+    color: orangered;
+}
+.f-description{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyright{
+    color: rgb(128, 131, 133);
 }
