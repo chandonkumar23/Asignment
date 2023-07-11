@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(213, 167, 134);
+}
+.head-column{
+    width: 450px;
+}
+.head-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;  
+    font-weight: 700;
+}
+.head-discription{
+    margin: 15px 0;
+}
+.main-img{
+    height: 100vh;
+}
+.shop-btn{
+    padding: 14px 30px ;
+    margin: 25px 0 ;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 111, 62);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+/********************style featured section*********/
+.featured-section{
+     margin: auto;
+     padding: 140px 200px;
+
+}
+.featured-info{
+    width: 500px;
+    margin: auto;
+}
+.featured-title{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(86, 87, 89);
+}
+.featured-description{
+    text-align: center;
+    margin: 12px;
+
+}
+.featured-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    gap: 25px;
+}
+.img-1{
+    background-color: rgb(216, 128, 173);
+    padding: 0 42px;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+}
+.img-2{
+    background-color: pink;
+    padding: 0;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+}
+.img-3{
+    background-color: rgb(241, 214, 151);
+   padding: 0 30px;
+   border-top-left-radius: 47%;
+   border-top-right-radius: 47%;
+}
+.underline-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.underline-text{
+    font-size: 25px;
+    font-weight: bold;
+    top: -20;
+}
+/***************************discount style*************/
+.discount-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:70px 80px;
+    background-color: rgb(232, 221, 208);
+}
+.discound-column{
+    width: 450px;
+    text-align: center;
+}
+.discount-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.off{
+    color: orangered;
+    font-weight: 700;
+    font-size: 38px;
+}
+.discount-discription{
+    text-align: center;
+    margin: 15px;
+}
+.sign-up{
+    margin: auto;
+    padding: 18px 37px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(255, 145, 0);
+}
+/****************************instagram section style***************/
+.instagram-section{
+    text-align: center;
+    padding: 80px 50px ;
+    width: 500px;
+    margin: auto;
+}
+.instagran-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 10px;
+}
+.instagram-discription{
+    text-align: center;
+}
+.instagram-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 90px;
+    padding: 10px;
+    gap: 10px;
+}
+/************subscribe***********/
+.latest-section{
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 70px  65px;
+    text-align: center;
+}
+.latest-info{
+    margin: 80px 20px;
+    padding: 75px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.latest-discription{
+    color: rgb(110, 114, 117);
+    margin: 10px 0;
+    font-family: 22px;
+}
+.mail-int{
+    padding: 13px 0;
+    margin: 40px 0px;
+    width: 500px;
+    border: 0;
+    border-radius: 3px;
+}
+.subscribe-btn{
+    padding: 13px 18px;
+    margin: auto;
+    border-radius: 3px;
+    border: 0;
+    background-color: pink;
+}
